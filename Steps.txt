@@ -1,0 +1,13 @@
+npm create vite@latest
+
+》Enter_<ProjectName>
+
+》Select preferred Js
+
+Now run following commands:
+
+cd <ProjectName>
+
+npm install
+
+npm run dev
