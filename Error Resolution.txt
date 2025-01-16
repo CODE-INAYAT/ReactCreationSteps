@@ -1,0 +1,11 @@
+ERROR:-
+file c:\program files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system. for more information, see about_execution_policies at https:/go.mi crosoft.com/fwlink/?linkid=135170. at line:1 char:1 + npm create vite@latest + ~~~ + categoryinfo : securitye rror: (:) [], pssecurityexception + fullyqualifiederrorid : unauthori zedaccess
+
+SOLUTIONS:-
+Run Following Commands:
+
+》set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+》Get-ExecutionPolicy
+
+》Get-ExecutionPolicy -list
